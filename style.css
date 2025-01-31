@@ -1,0 +1,162 @@
+/* Reset and general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background for entire page */
+body {
+  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-vector/blue-technology-background-picture_44621-842.jpg?w=900');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Login Container */
+.login-container {
+  background-image:url(https://img.freepik.com/free-vector/white-abstract-background_23-2148831511.jpg?t=st=1738319115~exp=1738322715~hmac=bebf7b1447cf0518b6db4bcd9fad3108340b79c6af829414aa08b121be48d22e&w=900);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(181, 134, 134, 0.1);
+}
+
+.login-container h1 {
+  color: #17477e;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Home Page */
+#home-page {
+  display: none;
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(184, 133, 133, 0.1);
+  text-align: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Sections */
+section {
+  background: rgb(214, 223, 234);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  color: #bdc7bb;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color:;
+bottom: 66px;
+  width: 100%;
+}
+
+
+
+
+.forgot-password-container {
+  background: white;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.forgot-password-container h2 {
+  color: #333;
+}
+
+.forgot-password-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot-password-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgot-password-container button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password-container p {
+  margin-top: 10px;
+}

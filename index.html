@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Bank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Login Page -->
+  <div class="login-container">
+    <h1><b>Inter-Link Bank</b></h1><br>
+    <input type="number" id="customerId" placeholder="Enter CustomerId 123456" required>
+    <br>
+    <br>
+    <input type="number" id="password" placeholder="Enter Password 123456" required>
+    <br>
+    <br>
+    <button type="button" onclick="login()">Login</button>
+    <br>
+    <br>
+    <a href="forgot-password.html">Forgot Password?</a>
+    <br>
+    
+    <div class="register-link">
+      <br>
+
+
+      <h7>First Time User?</h7> <br>
+      <a href="#">Register Now to setup the account</a>
+    </div>
+  </div>
+
+  <!-- Home Page (Once logged in) -->
+  <div id="home-page" class="page" style="display: none;">
+    <header>
+      <h1>Central-Bank<h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#deposit">Deposit</a></li>
+          <li><a href="#withdraw">Withdraw </a></li>
+          
+        </ul>
+      </nav>
+    </header>
+<section id="withdraw-amount">
+
+<a href="#withdraw">Withdraw </a> </section>
+
+      <section id="home">
+        <h2>Welcome to Your Banking Dashboard</h2>
+        <p>Your balance: $<span id="balance">1000</span></p>
+      </section>
+
+      <section id="deposit">
+        <h3>Deposit Funds</h3>
+        <input type="number" id="deposit-amount" placeholder="Enter deposit amount">
+        <button onclick="deposit()">Deposit</button>
+      </section>
+
+      <section id="withdraw">
+        <h3>Withdraw Funds</h3>
+        <input type="number" id="withdraw-amount" placeholder="Enter withdraw amount">
+        <button onclick="withdraw()">Withdraw</button>
+      </section>
+
+      
+    <div>
+
+      <section id="transactions">
+        <h3>Transaction History</h3>
+        <ul id="transaction-history"></ul></section>
+    </div>
+
+
+    </main>
+    <script src="app.js"></script>
+
+  </div>
+  
+
+
+
+
+  <footer>
+    <p>&copy; 2025 Banking System</p>
+  </footer>
+</body>
+
+</html>
